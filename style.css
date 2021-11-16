@@ -1,0 +1,46 @@
+.hesapMakinesi{
+    width: 80%;
+    padding: 10%;
+    
+}
+
+.acButton{
+    width: 50%;
+    height: 3rem;
+    padding: 1px !important;
+    margin: 0;
+}
+
+.buttons{
+    width: 25%;
+    height: 3rem;
+    margin: auto;
+}
+.butonlar{
+    display: table;
+    width: 100%;
+}
+
+.input{
+    height: 2rem;
+    width: 98%;
+    border: none;
+    background-color: yellow;
+    color: black;
+    text-align: right;
+}
+
+.inputs{
+    border: 1px solid grey;
+}
+
+.arkaplan{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 20%;
+    background-color: grey;
+    border: 2px solid black;
+}
+
+

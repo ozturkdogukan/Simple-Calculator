@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hesap Makinesi</title>
+</head>
+
+<body>
+    <div class="arkaplan">
+        <div class="hesapMakinesi">
+            <div class="inputs">
+                <input class="input" id="islemInput" type="text" disabled>
+                <input class="input" id="sonuc" type="text" value="" disabled>
+            </div>
+            <div class="butonlar">
+                <button class="acButton" id="acButton" onclick="tikla('ac')" value="AC">AC</button>
+                <button class="buttons" id="cButton" onclick="tikla('c')" value="C">C</button>
+                <button class="buttons" id="/Button" onclick="tikla('/')" value="/">/</button>
+                <button class="buttons" id="1Button" onclick="tikla('1')" value="1">1</button>
+                <button class="buttons" id="2Button" onclick="tikla('2')" value="2">2</button>
+                <button class="buttons" id="3Button" onclick="tikla('3')" value="3">3</button>
+                <button class="buttons" id="*Button" onclick="tikla('*')" value="*">*</button>
+                <button class="buttons" id="4Button" onclick="tikla('4')" value="4">4</button>
+                <button class="buttons" id="5Button" onclick="tikla('5')" value="5">5</button>
+                <button class="buttons" id="6Button" onclick="tikla('6')" value="6">6</button>
+                <button class="buttons" id="+Button" onclick="tikla('+')" value="+">+</button>
+                <button class="buttons" id="7Button" onclick="tikla('7')" value="7">7</button>
+                <button class="buttons" id="8Button" onclick="tikla('8')" value="8">8</button>
+                <button class="buttons" id="9Button" onclick="tikla('9')" value="9">9</button>
+                <button class="buttons" id="-Button" onclick="tikla('-')" value="-">-</button>
+                <button class="buttons" id=".Button" onclick="tikla('.')" value=".">.</button>
+                <button class="buttons" id="0Button" onclick="tikla('0')" value="0">0</button>
+                <button class="acButton" id="=Button" onclick="tikla('=')" value="=">=</button>
+            </div>
+            <div></div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
